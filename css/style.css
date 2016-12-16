@@ -1,0 +1,447 @@
+body{
+    background: #81b8e7; /* Old browsers */
+background: -moz-linear-gradient(top, #81b8e7 0%, #81b8e7 0%, #a7c9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #81b8e7 0%,#81b8e7 0%,#a7c9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #81b8e7 0%,#81b8e7 0%,#a7c9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81b8e7', endColorstr='#a7c9e8',GradientType=0 ); /* IE6-9 */
+copy;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+#cloud{
+    width: 15%;
+    height: 15%;
+    left: -5%;
+    position: relative;
+}
+
+#cloud_two{
+    width: 30%;
+    height: 30%;
+    right: -8%;
+    top: 8vw;
+    position: relative;
+    display: inherit;
+}
+
+#cloud_three{
+    width: 20%;
+    height: 20%;
+    right: -53%;
+    top: -23vw;
+    position: relative;
+    display: inline;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#cloud_four{
+    width: 35%;
+    height: 35%;
+    right: -57%;
+    top: -33vw;
+    position: relative;
+    display: inline;
+    
+}
+
+#cloud_five{
+    width: 35%;
+    height: 35%;
+    right: 23%;
+    top: -40vw;
+    position: relative;
+    display: inline;
+    opacity: 0.3;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
+    -moz-transform: scaleY(-1);
+        -o-transform: scaleY(-1);
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    
+}
+
+#cloud_six{
+    width: 13%;
+    height: 13%;
+    right: -81%;
+    top: -23vw;
+    position: relative;
+    display: inline;
+}
+
+#bird{
+    width: 15%;
+    height: 15%;
+    display: inline;
+    position: relative;
+    top: -29vw;
+    right: -64%;
+}
+
+#bird_two{
+    width: 15%;
+    height: 15%;
+    display: inline;
+    position: relative;
+    top: -55vw;
+    right: -11%;
+}
+
+#bird_three{
+    width: 15%;
+    height: 15%;
+    display: inline;
+    position: relative;
+    top: -16vw;
+    right: 41%;
+}
+
+h1{
+    font-size: 14vw;
+    font-family: 'grand_hotel';
+    font-weight: 100;
+    color: #15032d;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    font-size: 7vw;
+    font-family: 'grand_hotel';
+    font-weight: 100;
+    color: #15032d;
+    text-align: center;
+    padding: 0;
+    margin: -4%;
+}
+
+h3{
+    font-family: 'ostrich_sans';
+    font-size: 3vw;
+    text-align: center;
+    width: 70vw;
+    margin: 0 auto;
+    
+}
+
+#title_container{
+    display: inline;
+    position: relative;
+    top: -35vw;
+}
+
+.format p{
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    text-align: center;
+    width: 65vw;
+    font-size: 1.2vw;
+    margin: 0 auto;
+    line-height: 2.3vw;
+}
+
+.format p{
+    padding-top: 4vw;
+}
+
+#emphasize{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    text-align: center;
+    width: 65vw;
+    font-size: 1.3vw;
+    margin: 0 auto;
+    padding-top: -3vw;
+}
+
+#text_container{
+    display: inline;
+    position: relative;
+    top: -9vw;
+}
+
+#landscape{
+    padding-top: 13vw;
+}
+
+#sun{
+    display: inline;
+    position: relative;
+    margin: 0 auto;
+    height: 30%;
+    width: 30%;
+    left: 36vw;
+    top: -29vw;
+    z-index: 0;
+    
+}
+
+#mountains{
+    display: inline;
+    position: relative;
+    height: 50%;
+    width: 50%;
+    left: -3.5vw;
+    top: -3vw;
+    z-index: 1;
+}
+
+#mountains_two{
+    display: inline;
+    position: relative;
+    margin: 0 auto;
+    height: 30%;
+    width: 30%;
+    left: -0.5vw;
+    top: -25vw;
+    z-index: 1;
+}
+
+#mountains_three{
+    display: inline;
+    position: relative;
+    height: 30%;
+    width: 30%;
+    left: 39.5vw;
+    top: -25vw;
+    z-index: 1;
+    filter: alpha(opacity=30);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+
+
+#hill_one{
+   width: 122vw;
+    height: 50vw;
+    background: #75ad07;
+    border-radius: 50%;
+    left: -10.5vw;
+    top: -29vw;
+    z-index: 3;
+    position: relative;
+}
+
+#hill_two{
+    width: 36vw;
+    height: 24vw;
+    background: #07ad61;
+    border-radius: 50%;
+    left: -14.5vw;
+    top: -82vw;
+    z-index: 2;
+    position: relative;
+}
+
+#hill_three{
+    width: 36vw;
+    height: 24vw;
+    background: #07ad61;
+    border-radius: 50%;
+    left: 78.5vw;
+    top: -106vw;
+    z-index: 2;
+    position: relative;
+}
+
+#tree_one{
+    display: inline;
+    position: relative;
+    height: 10%;
+    width: 10%;
+    left: 15.5vw;
+    top: -138vw;
+    z-index: 4;
+    filter: alpha(opacity=30);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#tree_two{
+    display: inline;
+    position: relative;
+    height: 10%;
+    width: 10%;
+    left: 13.5vw;
+    top: -136vw;
+    z-index: 5;
+}
+
+#tree_three{
+    display: inline;
+    position: relative;
+    height: 10%;
+    width: 10%;
+    left: 52.5vw;
+    top: -138vw;
+    z-index: 4;
+}
+
+#tree_four{
+    display: inline;
+    position: relative;
+    height: 10%;
+    width: 10%;
+    left: 33.5vw;
+    top: -136vw;
+    z-index: 5;
+    filter: alpha(opacity=30);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#hedge{
+    display: inline;
+    position: relative;
+    left: -18.5vw;
+    top: -125vw;
+    z-index: 6;
+    width: 16%;
+}
+
+#hedge_two{
+    display: inline;
+    position: relative;
+    left: -50.5vw;
+    top: -126vw;
+    z-index: 5;
+    width: 20%;
+}
+
+#hedge_three{
+    display: inline;
+    position: relative;
+    left: -16.5vw;
+    top: -125vw;
+    z-index: 6;
+    width: 15%;
+    filter: alpha(opacity=30);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#hedge_four{
+    display: inline;
+    position: relative;
+    left: 72.5vw;
+    top: -142vw;
+    z-index: 5;
+    width: 20%;
+    filter: alpha(opacity=30);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#takahe{
+    display: inline;
+    position: relative;
+    left: 24.5vw;
+    top: -148vw;
+    z-index: 7;
+    width: 12%;
+    height: 12%;
+    filter: alpha(opacity=30);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#grass{
+    width: 100%;
+}
+
+#grass h2{
+    width: 60%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 0vw 11vw 4vw 11vw;
+}
+
+#grass p{
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    text-align: center;
+    width: 65vw;
+    font-size: 1.2vw;
+    margin: 0 auto;
+    line-height: 2.3vw;
+    padding-top: 4vw;
+}
+
+#grass_container{
+    display: inline-block;
+    position: relative;
+    top: -133vw;
+    background: #75ad07;
+    z-index: 5;
+    padding-bottom: 10vw;
+}
+
+#quote{
+    padding: 6vw 0;
+    margin: 6vw 0;
+    background-color: #ea7f00;
+}
+
+blockquote{
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    text-align: center;
+    width: 65vw;
+    font-size: 1.6vw;
+    font-style: italic;
+    line-height: 3vw;
+    padding: 4vw 0;
+}
+
+cite{
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    padding: 1vw;
+}
+
+#quote p{
+    font-style: italic;
+    font-size: 1.4vw;
+    font-weight: 400;
+    padding: 0;
+}
