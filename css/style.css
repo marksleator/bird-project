@@ -4,107 +4,100 @@ html{
 
 body{
     background: #81b8e7; /* Old browsers */
-background: -moz-linear-gradient(top, #81b8e7 0%, #81b8e7 0%, #a7c9e8 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #81b8e7 0%,#81b8e7 0%,#a7c9e8 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #81b8e7 0%,#81b8e7 0%,#a7c9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81b8e7', endColorstr='#a7c9e8',GradientType=0 ); /* IE6-9 */
-copy;
-    
     padding: 0;
     margin: 0;
-    margin-bottom: -366vw;
-    overflow: hidden;
+    
 }
 
 #cloud{
-    width: 15%;
-    height: 15%;
+     width: 15%;
+    /* height: 15%; */
     left: -5%;
-    position: relative;
+    position: absolute;
 }
 
 #cloud_two{
     width: 30%;
-    height: 30%;
-    right: -8%;
-    top: 8vw;
-    position: relative;
+    /* height: 30%; */
+    right: 62%;
+    top: 20vw;
+    position: absolute;
     display: inherit;
 }
 
 #cloud_three{
-    width: 20%;
-    height: 20%;
-    right: -53%;
-    top: -23vw;
-    position: relative;
+   width: 20%;
+    /* height: 20%; */
+    right: 26%;
+    top: 16vw;
+    position: absolute;
     display: inline;
     opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+    filter: alpha(opacity=50);
 }
 
 #cloud_four{
-    width: 35%;
-    height: 35%;
-    right: -57%;
-    top: -33vw;
-    position: relative;
+        width: 35%;
+    /* height: 35%; */
+    right: -14%;
+    top: 2vw;
+    position: absolute;
     display: inline;
     
 }
 
 #cloud_five{
     width: 35%;
-    height: 35%;
-    right: 23%;
-    top: -40vw;
-    position: relative;
+    /* height: 35%; */
+    right: 44%;
+    top: -5vw;
+    position: absolute;
     display: inline;
     opacity: 0.3;
-    filter: alpha(opacity=30); /* For IE8 and earlier */
+    filter: alpha(opacity=30);
     -moz-transform: scaleY(-1);
-        -o-transform: scaleY(-1);
-        -webkit-transform: scaleY(-1);
-        transform: scaleY(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
     
 }
 
 #cloud_six{
     width: 13%;
-    height: 13%;
-    right: -81%;
-    top: -23vw;
-    position: relative;
+    /* height: 13%; */
+    right: 8%;
+    top: 42vw;
+    position: absolute;
     display: inline;
 }
 
 #bird{
     width: 15%;
-    height: 15%;
+    /* height: 15%; */
     display: inline;
-    position: relative;
-    top: -29vw;
-    right: -64%;
+    position: absolute;
+    top: 25vw;
+    right: 9%;
 }
 
 #bird_two{
     width: 15%;
-    height: 15%;
+    /* height: 15%; */
     display: inline;
-    position: relative;
-    top: -55vw;
-    right: -11%;
+    position: absolute;
+    top: 2vw;
+    right: 44%;
 }
 
 #bird_three{
     width: 15%;
-    height: 15%;
+    /* height: 15%; */
     display: inline;
-    position: relative;
-    top: -16vw;
-    right: 41%;
+    position: absolute;
+    top: 43vw;
+    right: 80%;
 }
 
 h1{
@@ -127,19 +120,23 @@ h2{
     margin: -4%;
 }
 
-h3{
+#sky h3{
     font-family: 'ostrich_sans';
     font-size: 3.2vw;
     text-align: center;
     width: 70vw;
     margin: 0 auto;
     font-weight: 100;
+    position: absolute;
+    top: 107vw;
+    left: 14vw;
 }
 
 #title_container{
     display: inline;
-    position: relative;
-    top: -35vw;
+    position: absolute;
+    top: 43vw;
+    left: 30vw;
 }
 
 #sky{
@@ -160,6 +157,10 @@ h3{
     padding-top: 4vw;
 }
 
+.format{
+    padding: 127vw 0 4vw 0;
+}
+
 #emphasize{
     font-family: 'Lora', serif;
     font-weight: 400;
@@ -167,7 +168,9 @@ h3{
     width: 65vw;
     font-size: 1.3vw;
     margin: 0 auto;
-    padding-top: -3vw;
+    position: absolute;
+    top: 116vw;
+    left: 17vw;
 }
 
 #text_container{
@@ -181,45 +184,43 @@ h3{
 }
 
 #sun{
-    display: inline;
-    position: relative;
+    position: absolute;
     margin: 0 auto;
-    height: 30%;
+    /* height: 30%; */
     width: 30%;
-    left: 36vw;
-    top: -29vw;
+    left: 35vw;
+    top: 193vw;
     z-index: 0;
     
 }
 
 #mountains{
-    display: inline;
-    position: relative;
-    height: 50%;
+    position: absolute;
+    /* height: 50%; */
     width: 50%;
-    left: -3.5vw;
-    top: -3vw;
+    left: 25.5vw;
+    top: 211vw;
     z-index: 1;
 }
 
 #mountains_two{
     display: inline;
-    position: relative;
+    position: absolute;
     margin: 0 auto;
-    height: 30%;
+    /* height: 30%; */
     width: 30%;
     left: -0.5vw;
-    top: -25vw;
+    top: 227vw;
     z-index: 1;
 }
 
 #mountains_three{
     display: inline;
-    position: relative;
-    height: 30%;
+    position: absolute;
+    /* height: 30%; */
     width: 30%;
-    left: 39.5vw;
-    top: -25vw;
+    left: 69.5vw;
+    top: 227vw;
     z-index: 1;
     filter: alpha(opacity=30);
     -moz-transform: scaleX(-1);
@@ -237,10 +238,10 @@ h3{
     height: 50vw;
     background: #75ad07;
     border-radius: 50%;
-    left: -10.5vw;
-    top: -29vw;
+    left: -11.5vw;
+    top: 247vw;
     z-index: 3;
-    position: relative;
+    position: absolute;
 }
 
 #hill_two{
@@ -248,10 +249,10 @@ h3{
     height: 24vw;
     background: #07ad61;
     border-radius: 50%;
-    left: -14.5vw;
-    top: -82vw;
+    left: -11.5vw;
+    top: 246vw;
     z-index: 2;
-    position: relative;
+    position: absolute;
 }
 
 #hill_three{
@@ -259,19 +260,19 @@ h3{
     height: 24vw;
     background: #07ad61;
     border-radius: 50%;
-    left: 78.5vw;
-    top: -106vw;
+    left: 73.5vw;
+    top: 246vw;
     z-index: 2;
-    position: relative;
+    position: absolute;
 }
 
 #tree_one{
     display: inline;
-    position: relative;
-    height: 10%;
+    position: absolute;
+    /* height: 10%; */
     width: 10%;
-    left: 15.5vw;
-    top: -138vw;
+    left: 16.5vw;
+    top: 236vw;
     z-index: 4;
     filter: alpha(opacity=30);
     -moz-transform: scaleX(-1);
@@ -284,31 +285,31 @@ h3{
 
 #tree_two{
     display: inline;
-    position: relative;
-    height: 10%;
+    position: absolute;
+    /* height: 10%; */
     width: 10%;
-    left: 13.5vw;
-    top: -136vw;
+    left: 24.5vw;
+    top: 239vw;
     z-index: 5;
 }
 
 #tree_three{
     display: inline;
-    position: relative;
-    height: 10%;
+    position: absolute;
+    /* height: 10%; */
     width: 10%;
-    left: 52.5vw;
-    top: -138vw;
+    left: 71.5vw;
+    top: 236vw;
     z-index: 4;
 }
 
 #tree_four{
     display: inline;
-    position: relative;
-    height: 10%;
+    position: absolute;
+    /* height: 10%; */
     width: 10%;
-    left: 33.5vw;
-    top: -136vw;
+    left: 63.5vw;
+    top: 239vw;
     z-index: 5;
     filter: alpha(opacity=30);
     -moz-transform: scaleX(-1);
@@ -321,28 +322,28 @@ h3{
 
 #hedge{
     display: inline;
-    position: relative;
-    left: -18.5vw;
-    top: -125vw;
+    position: absolute;
+    left: 23.5vw;
+    top: 255vw;
     z-index: 6;
     width: 16%;
 }
 
 #hedge_two{
     display: inline;
-    position: relative;
-    left: -50.5vw;
-    top: -126vw;
+    position: absolute;
+    left: 7.5vw;
+    top: 250vw;
     z-index: 5;
     width: 20%;
 }
 
 #hedge_three{
     display: inline;
-    position: relative;
-    left: -16.5vw;
-    top: -125vw;
-    z-index: 6;
+    position: absolute;
+    left: 60.5vw;
+    top: 255vw;
+    z-index: 7;
     width: 15%;
     filter: alpha(opacity=30);
     -moz-transform: scaleX(-1);
@@ -355,9 +356,9 @@ h3{
 
 #hedge_four{
     display: inline;
-    position: relative;
-    left: 72.5vw;
-    top: -142vw;
+    position: absolute;
+    left: 70.5vw;
+    top: 250vw;
     z-index: 5;
     width: 20%;
     filter: alpha(opacity=30);
@@ -371,12 +372,12 @@ h3{
 
 #takahe{
     display: inline;
-    position: relative;
-    left: 32.5vw;
-    top: -142vw;
+    position: absolute;
+    left: 52.5vw;
+    top: 255vw;
     z-index: 5;
     width: 12%;
-    height: 12%;
+    /* height: 12%; */
     transition: all 1s ease;
     
 }
@@ -391,6 +392,9 @@ h3{
 /*-----------------GREEN SECTION------------------*/
 
 #grass{
+    position: absolute;
+    top: 2vw;
+    z-index: 3;
     width: 100%;
 }
 
@@ -416,11 +420,10 @@ h3{
 }
 
 #grass_container{
-    display: inline-block;
-    position: relative;
-    top: -133vw;
+    position: absolute;
+    top: 275vw;
     background: #75ad07;
-    z-index: 5;
+    /* z-index: 13; */
     padding-bottom: 15vw;
 }
 
@@ -428,9 +431,11 @@ h3{
     padding: 6vw 0;
     margin: 6vw 0;
     background-color: #ea7f00;
-    position: relative;
-    top: -141vw;
+    position: absolute;
+    top: 391vw;
+    /* left: 17vw; */
     z-index: 7;
+    width: 100%;
 }
 
 blockquote{
@@ -468,9 +473,10 @@ cite{
 
 #yellow_section{
     background-color: #ceb10f;
-    position: relative;
-    top: -149vw;
+    position: absolute;
+    top: 437vw;
     z-index: 5;
+    width: 100%;
     
     }
 
@@ -574,10 +580,10 @@ cite{
 
 #table_section{
     background-color: #ea7f00;
-    padding: 12vw 12vw 4vw;
-    position: relative;
-    top: -307vw;
-    z-index: 5;
+    padding: 12vw 15vw 4vw;
+    position: absolute;
+    top: 672vw;
+    z-index: 5
 }
 
 #table_section p{
@@ -588,8 +594,7 @@ cite{
     margin: 0 auto;
     font-weight: 100;
     color: #fff;
-    position: relative;
-    top: 2vw;
+    
 }
 
 #table_section h2{
@@ -639,7 +644,7 @@ tbody tr:hover {
 #table_section #takahe_two{
     display: inline;
     position: relative;
-    left: -4.5vw;
+    left: -6vw;
     top: -1vw;
     z-index: 7;
     width: 26%;
@@ -659,9 +664,10 @@ tbody tr:hover {
 
 #blue_section{
     background-color: #205c79;
-    position: relative;
-    top: -304vw;
+    position: absolute;
+    top: 728vw;
     z-index: 8;
+    width: 100%;
 }
 
 #blue_section p{
@@ -820,10 +826,12 @@ tbody tr:hover {
     background-color: #080808;
 }
 
+/*---------------------BLACK SECTION------------------------*/
+
 #black_section{
     background-color: #0d0d0d;
-    position: relative;
-    top: -365vw;
+    position: absolute;
+    top: 982vw;
     z-index: 8;
 }
 
@@ -876,7 +884,9 @@ tbody tr:hover {
 #green_section{
     background-color: #1ace62;
     position: relative;
-    top: -339vw;
+    top: 1071vw;
+    width: 100%;
+    padding-bottom: 24vw;
 }
 
 #nz_two{
@@ -975,8 +985,11 @@ tbody tr:hover {
 #red_section{
     background-color: #fa4b4c;
     position: relative;
-    top: -366vw;
-    height: 200vw;
+    z-index: 1000;
+    top: 1014vw;
+    /* height: 200vw; */
+    width: 100%;
+    padding-top: 12vw;
 }
 
 #red_section h2{
@@ -988,9 +1001,7 @@ tbody tr:hover {
 #grid{
     width: 100%;
     margin: 0 auto;
-    position: relative;
-    left: 7vw;
-    top: 20vw;
+    padding: 20vw 5vw;
 }
 
 .grid-section{
@@ -1004,7 +1015,7 @@ tbody tr:hover {
 }
 
 .feather img{
-    width: 10vw;
+    width: 12vw;
 }
 
 #red_section h3{
@@ -1012,11 +1023,11 @@ tbody tr:hover {
     font-family: 'ostrich_sans';
     font-size: 3.5vw;
     margin: 0 auto;
-    font-weight: 100;
+    /* font-weight: 100; */
     width: 12vw;
     padding-top: 3vw;
-    position: relative;
-    left: -0.5vw;
+    /* position: relative; */
+    /* left: -0.5vw; */
     text-align: center;
     
 }
@@ -1026,26 +1037,32 @@ tbody tr:hover {
     font-family: 'ostrich_sans';
     font-size: 1.9vw;
     margin: 0 auto;
-    position: relative;
-    left: -0.8vw;
+    /* position: relative; */
+    /* left: -0.8vw; */
     text-align: center;
-    width: 11vw;
+    width: 12vw;
 }
 
 
 
 #takahe_three img{
-    width: 34vw;
-    position: relative;
-    left: 123vw;
-    top: 28vw;
+    width: 36vw;
+     position: relative;
+    left: -21vw;
+     -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
 }
 
 #footer{
     background-color: #c73b3c;
     position: relative;
-    top: -366vw;
-    padding: 4vw;
+    top: 1013vw;
+    padding: 6vw 4vw 11vw;
+    z-index: 1001;
 }
 
 small{
@@ -1077,9 +1094,11 @@ nav a:hover{
 }
 
 #arrow{
-    position: relative;
-    top: 23vw;
-    left: 13vw;
+    position: absolute;
+    /* left: 46vw; */
+    margin: 12.5vw;
+    /* top: -240vw; */
+    width: 5vw;
 }
 
 #arrow:hover{
@@ -1125,22 +1144,20 @@ nav a:hover{
 }
 
 .hvr-forward_two {
-    position: relative;
-    top: -5vw;
-    left: -37vw;
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  -webkit-transition-duration: 1.6s;
-  transition-duration: 1.6s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+    
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 1.6s;
+    transition-duration: 1.6s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
 }
 .hvr-forward_two:hover, .hvr-forward_two:focus, .hvr-forward_two:active {
-  -webkit-transform: translateX(10vw);
-  transform: translateX(10vw);
+  -webkit-transform: translateX(-10vw);
+  transform: translateX(-10vw);
 }
 
 @-webkit-keyframes hvr-pulse {

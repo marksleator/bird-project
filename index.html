@@ -17,16 +17,20 @@
 }
 @font-face {
    font-family: ostrich_sans;
-   src: url(fonts/ostrich_sans.otf)
+   src:url(fonts/ostrich_sans-webfont.woff2) format('woff2'),
+         url(fonts/ostrich_sans-webfont.woff) format('woff'), 
+       url(fonts/ostrich_sans.otf);
 }
 </style>
     
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+    <link href="images/favicon.png" rel="icon" type="image/x-icon" />
 </head>
-
+<div id="container">
 <body>
+    <div
     <div id="top"></div>
     <nav>
             <a href="#grass_container">Futile Wings</a>
@@ -276,6 +280,7 @@
     </div>   
         </div>
     <div id="red_section">
+        
         <h2>Fast Facts</h2>
         <div id="grid">
             <div class="grid_section">
@@ -305,7 +310,7 @@
             <div class="grid_section">
                 <div class="feather hvr-pulse"><img src="images/feather.png"><h3>Literacy Percent</h3> <h4>99</h4></div>
             </div>
-        </div>
+        </div> 
         
         <div class="hvr-forward_two"><div id="takahe_three"><img src="images/takahe.png"></div></div>
         <a href="#top"><img id="arrow" src="images/arrow.png"></a>
@@ -325,7 +330,8 @@
 
     <small>New Zealand Facts: Copyright, 1995-2015, by National Geographic Society, Washington, D.C.</small>
     </div>
-    
+    <!--<div id="clear"></div>-->
+    </div>
     <!-- 
       This is the base buggyfill. 
 -->
