@@ -327,6 +327,26 @@
     <small>New Zealand Facts: Copyright, 1995-2015, by National Geographic Society, Washington, D.C.</small>
     </div>
     
+    <!-- 
+      This is the base buggyfill. 
+-->
+<script src="path/to/viewport-units-buggyfill.js"></script>
+
+<!--
+      This is the hacks plugin needed for contentHacks to work correctly 
+      (see below).
+-->
+<script src="path/to/viewport-units-buggyfill.hacks.js"></script>
+<script>window.viewportUnitsBuggyfill.init({
+
+    // milliseconds to delay between updates of viewport-units
+    // caused by orientationchange, pageshow, resize events
+    refreshDebounceWait: 250,
+
+    // provide hacks plugin to make the contentHack property work correctly.
+    hacks: window.viewportUnitsBuggyfillHacks
+
+});</script>
   
 </body>
 </html>
