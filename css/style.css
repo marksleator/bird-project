@@ -927,6 +927,8 @@ tbody tr:hover {
     top: -54vw;
     background-color: #163d50;
     height: 42vw;
+    border-bottom: 3vw solid #163d50;
+    border-top: 3vw solid #163d50;
 }
 
 #map iframe{
