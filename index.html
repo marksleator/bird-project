@@ -266,7 +266,22 @@
     <div id="vertical_dotted_line_three"><img src="images/vertical_dotted_line_two.png"></div>
     <div id="vertical_dotted_line_four"><img src="images/vertical_dotted_line_two.png"></div>    
     <div id="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1135098.5874755539!2d167.94623861728945!3d-45.565779669092834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1483698744753" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <script>
+      function initMap() {
+        var fiordland = {lat: -45.239433, lng: 167.486499};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 7,
+          center: fiordland
+        });
+        var marker = new google.maps.Marker({
+          position: fiordland,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_6c87y7gWfUX_Q6HHUPHrtGz9AZcLBak&callback=initMap">
+    </script>
         <blockquote>
             New Zealand Fiordland Shelters the Takahe, or Notornis, a Bird Long Thought Extinct
         </blockquote>
