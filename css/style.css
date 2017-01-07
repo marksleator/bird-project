@@ -147,10 +147,10 @@ h2{
     font-family: 'Lora', serif;
     font-weight: 400;
     text-align: justify;
-    width: 44vw;
-    font-size: 1.3vw;
+    
+    
     margin: 0 auto;
-    line-height: 2.3vw;
+    
 }
 
 .format p{
@@ -170,7 +170,7 @@ h2{
     margin: 0 auto;
     position: absolute;
     top: 116vw;
-    left: 17vw;
+    left: 26vw;
 }
 
 #text_container{
@@ -402,26 +402,26 @@ h2{
     width: 60%;
     margin: 0 auto;
     color: #fff;
-    padding: 0vw 11vw 4vw 11vw;
+    
 }
 
 #grass p{
-    width: 80%;
+    
     margin: 0 auto;
     color: #fff;
     font-family: 'Lora', serif;
     font-weight: 400;
     text-align: justify;
-    width: 44vw;
-    font-size: 1.3vw;
+    
     margin: 0 auto;
-    line-height: 2.3vw;
-    padding-top: 4vw;
+    
+    
 }
 
 #grass_container{
     position: absolute;
-    top: 275vw;
+    top: 284vw;
+    height: 114vw;
     background: #75ad07;
     /* z-index: 13; */
     padding-bottom: 15vw;
@@ -432,7 +432,7 @@ h2{
     margin: 6vw 0;
     background-color: #ea7f00;
     position: absolute;
-    top: 391vw;
+    top: 388vw;
     /* left: 17vw; */
     z-index: 7;
     width: 100%;
@@ -492,10 +492,9 @@ cite{
     font-family: 'Lora', serif;
     font-weight: 400;
     text-align: justify;
-    width: 44vw;
-    font-size: 1.3vw;
+    
     line-height: 2.3vw;
-    padding-top: 4vw;
+    
 }
 
 #uk{
@@ -570,10 +569,12 @@ cite{
     top: -150vw;
     left: 79.6vw;
     position: relative;
+    z-index: 0;
 }
 
 #vertical_dotted_line img{
     width: 1vw;
+    z-index: 0;
 }
 
 /*---------------------TABLE SECTION-----------------------------*/
@@ -675,10 +676,8 @@ tbody tr:hover {
     font-family: 'Lora', serif;
     font-weight: 400;
     text-align: justify;
-    width: 44vw;
-    font-size: 1.3vw;
-    line-height: 2.3vw;
-    padding-top: 4vw;
+    
+    
 }
 
 #blue_section h2{
@@ -831,7 +830,7 @@ tbody tr:hover {
 #black_section{
     background-color: #0d0d0d;
     position: absolute;
-    top: 982vw;
+    
     z-index: 8;
 }
 
@@ -845,16 +844,15 @@ tbody tr:hover {
 }
 
 #black_section p{
-    width: 80%;
-    margin: 0 auto;
+    
     color: #fff;
     font-family: 'Lora', serif;
     font-weight: 400;
     text-align: justify;
-    width: 44vw;
-    font-size: 1.3vw;
+   
+    
     margin: 0 auto;
-    line-height: 2.3vw;
+    
     padding-top: 4vw;
 }
 
@@ -909,16 +907,14 @@ tbody tr:hover {
 }
 
 #green_section p{
-    width: 80%;
-    margin: 0 auto;
+    
     color: #fff;
     font-family: 'Lora', serif;
     font-weight: 400;
     text-align: justify;
-    width: 44vw;
-    font-size: 1.3vw;
+    
     margin: 0 auto;
-    line-height: 2.3vw;
+    
     padding-top: 4vw;
 }
 
@@ -1262,5 +1258,79 @@ nav a:hover{
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
+
+@media only screen and (min-width: 501px){
+    p{
+        font-size: 1.3vw;
+        width: 44vw;
+        line-height: 2.3vw;
+    }
+    
+    #yellow_section p{
+        width: 44vw;
+        font-size: 1.3vw;
+        padding-top: 4vw;
+    }
+    
+     #blue_section p{
+        width: 44vw;
+        font-size: 1.3vw;
+        padding-top: 4vw;
+    }
+    
+    #grass h2{
+        padding: 0vw 11vw 4vw 11vw;
+    }
+    
+    #grass p{
+        padding-top: 4vw;
+    }
+    
+    #black_section{
+        top: 986vw;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+    p{
+        font-size: 0.4em;
+        width: 90%;
+        line-height: 2.8vw;
+    }
+    
+    #yellow_section p{
+        width: 48vw;
+        font-size: 1.9vw;
+        padding-top: 0;
+    }
+    
+    #blue_section p{
+        font-size: 0.48em;
+        width: 46vw;
+        padding-top: 0;
+    }
+    #green_section p{
+        z-index: 3;
+        position: relative;
+    }
+    
+    #grass h2{
+        padding: 0;
+    }
+    #grass p{
+        padding-top: 3vw;
+        font-size: 0.45em;
+    }
+    
+    #black_section{
+        top: 996vw;
+    }
+}
+
+
 
 
